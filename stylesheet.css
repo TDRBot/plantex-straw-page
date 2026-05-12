@@ -13,6 +13,8 @@ body {
     backdrop-filter: brightness(50%) blur(4px);
     background-position-y: 80%;
     font-family: RW;
+    text-align: center;
+    justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
