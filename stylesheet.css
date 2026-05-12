@@ -15,7 +15,7 @@ body {
     font-family: RW;
     text-align: center;
     justify-content: center;
-    background-size: contain;
+    background-size: cover;
     color: white;
     margin: 0px;
 }
