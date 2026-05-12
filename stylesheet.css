@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Rodondo, sans-serif;
+    src:url('assets/Rodondo.otf');
+}
+
+@font-face {
+    font-family: RW, sans-serif;
+    src:url('assets/Rodondo.otf');
+}
+
+body {
+    background-image: url('assets/rainworld-bg.webp');
+    backdrop-filter: brightness(50%) blur(4px);
+    background-position-y: 80%;
+    font-family: RW;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Rodondo;
+    font-weight: normal;
+}
