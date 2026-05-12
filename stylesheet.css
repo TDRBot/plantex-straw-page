@@ -45,3 +45,8 @@ h2 {
 li img {
     width: 48px;
 }
+
+table, thead, tbody, tr, td {
+    text-align: center;
+    justify-content: center;
+}
