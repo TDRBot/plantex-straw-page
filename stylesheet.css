@@ -15,9 +15,18 @@ body {
     font-family: RW;
     text-align: center;
     justify-content: center;
+    height: 100%;
+    background-size: contain;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Rodondo;
     font-weight: normal;
+    background-image: linear-gradient(to top right, #636363 0%, #ffffff 35%);
+    color:  transparent;
+    background-clip: text;
+}
+
+h1 {
+    font-size: 6em;
 }
