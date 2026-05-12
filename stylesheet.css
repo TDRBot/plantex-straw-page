@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Rodondo, sans-serif;
+    font-family: Rodondo;
     src:url('assets/Rodondo.otf');
 }
 
 @font-face {
-    font-family: RW, sans-serif;
-    src:url('assets/Rodondo.otf');
+    font-family: RW;
+    src:url('assets/rain-world-menu.ttf');
 }
 
 body {
@@ -15,8 +15,9 @@ body {
     font-family: RW;
     text-align: center;
     justify-content: center;
-    height: 100%;
     background-size: contain;
+    color: white;
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,4 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 6em;
+}
+
+.header-img {
+    width: 1em;
 }
